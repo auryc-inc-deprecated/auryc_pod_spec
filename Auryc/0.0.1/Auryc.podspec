@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.source = {
-    :http => 'https://s3.amazonaws.com/auryc.sdk/prod/Auryc.framework_prod2.zip'
+    :http => 'https://s3.amazonaws.com/auryc.sdk/prod/Auryc.framework_withprivate.zip'
   }
   s.vendored_frameworks = 'Auryc.framework'
   s.exclude_files = "Auryc/Exclude"
