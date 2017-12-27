@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.source = {
-    :http => 'https://s3.amazonaws.com/auryc.sdk/prod/Auryc.framework_withprivate.zip'
+    :http => 'https://s3.amazonaws.com/auryc.sdk/prod/Auryc.framework_withprivate_previous.zip'
   }
   s.vendored_frameworks = 'Auryc.framework'
   s.exclude_files = "Auryc/Exclude"
@@ -139,7 +139,7 @@ Pod::Spec.new do |s|
     s.dependency 'ProtocolBuffers-Swift'    
     s.dependency 'SwiftyJSON', '3.1.4'
     s.dependency 'DeviceKit'
-    #s.dependency 'DeviceGuru'
+    s.dependency 'DeviceGuru'
  #   s.dependency 'CryptoSwift', :git => "https://github.com/krzyzanowskim/CryptoSwift"
 
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
