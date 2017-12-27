@@ -139,7 +139,7 @@ Pod::Spec.new do |s|
     s.dependency 'ProtocolBuffers-Swift'    
     s.dependency 'SwiftyJSON', '3.1.4'
     s.dependency 'DeviceKit'
-    s.dependency 'DeviceGuru'
+    #s.dependency 'DeviceGuru'
  #   s.dependency 'CryptoSwift', :git => "https://github.com/krzyzanowskim/CryptoSwift"
 
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
