@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
 
 
   s.source = {
-    :http => 'https://s3.amazonaws.com/auryc.sdk/prod/Auryc.framework_xcode9.2_bitcode_prod7.zip'
+    :http => 'https://s3.amazonaws.com/auryc.sdk/prod/Auryc.framework_xcode9.2_bitcode_prod8.zip'
   }
   s.vendored_frameworks = 'Auryc.framework'
   s.exclude_files = "Auryc/Exclude"
