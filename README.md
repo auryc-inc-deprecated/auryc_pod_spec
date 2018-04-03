@@ -1,8 +1,8 @@
-# auruc-pod-spec
+# auryc-pod-spec
 
-To push a version to the private pod, follow the following steps.
+To push a version to the private pod, follow the instructions below.
 
-## Set up the local environment
+## One time set up: set up the local environment
 ```
 pod repo add auryc_pod_dev https://github.com/auryc-dev-partner/auryc_pod_spec.git
 cd ~/.cocoapods/repos/auryc_pod_dev
